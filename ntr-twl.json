@@ -1,0 +1,313 @@
+{
+	"info": {
+		"title": "NTR/TWL",
+		"author": "Ahezard, Gericom, RocketRobz, Sono",
+		"shortDesc": "Includes downloads for TWiLight Menu++, nds-bootstrap, GBARunner2, GodMode9i and TWPatch.",
+		"description": "With this Script you can:\n- Update TWiLight Menu++\n- Update nds-bootstrap\n- Update GBARunner2\n- Update GodMode9i\n- Update TWPatch",
+		"barColor": "#9e9a99",
+		"bgBottomColor": "#373737",
+		"bgTopColor": "#373737",
+		"textColor": "#eae5e4",
+		"selectedColor": "#b7b6b6",
+		"unselectedColor": "#4a4848",
+		"version": 3,
+		"revision": 8
+	},
+	"TWiLight Menu++ Release": [
+		{
+			"type": "downloadRelease",
+			"repo": "DS-Homebrew/TWiLightMenu",
+			"file": "TWiLightMenu.7z",
+			"output": "/TWiLightMenu.7z",
+			"message": "Downloading TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "_nds/",
+			"output": "/_nds/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "3DS - CFW users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "DSi&3DS - SD card users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu.cia",
+			"message": "Installing TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu - Game booter.cia",
+			"message": "Installing TWiLight Menu - Game booter..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu - Game booter.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLightMenu.7z"
+		}
+	],
+	"TWiLight Menu++ Nightly": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z",
+			"output": "/TWiLightMenu.7z",
+			"message": "Downloading TWiLight Menu++ (Nightly)..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/_nds/",
+			"output": "/_nds/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/3DS - CFW users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/DSi&3DS - SD card users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu.cia",
+			"message": "Installing TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu - Game booter.cia",
+			"message": "Installing TWiLight Menu - Game booter..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu - Game booter.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLightMenu.7z"
+		}
+	],
+	"TWiLight Menu++ Nightly (Lite)": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
+			"output": "/TWiLightMenu.7z",
+			"message": "Downloading TWiLight Menu++ Nightly (Lite)..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/_nds/",
+			"output": "/_nds/",
+			"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/3DS - CFW users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/DSi&3DS - SD card users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu.cia",
+			"message": "Installing TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu - Game booter.cia",
+			"message": "Installing TWiLight Menu - Game booter..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu - Game booter.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLightMenu.7z"
+		}
+	],
+	"nds-bootstrap Nightly": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
+			"output": "/nds-bootstrap.7z",
+			"message": "Downloading nds-bootstrap Nightly..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/nds-bootstrap.7z",
+			"input": "nds-bootstrap/",
+			"output": "/_nds/",
+			"message": "Extracting nds-bootstrap..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/nds-bootstrap.7z"
+		}
+	],
+	"nds-bootstrap Release": [
+		{
+			"type": "downloadRelease",
+			"repo": "ahezard/nds-bootstrap",
+			"file": "nds-bootstrap.7z",
+			"output": "/nds-bootstrap.7z",
+			"message": "Downloading nds-bootstrap..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/nds-bootstrap.7z",
+			"input": "",
+			"output": "/_nds/",
+			"message": "Extracting nds-bootstrap..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/nds-bootstrap.7z"
+		}
+	],
+	"usrcheat.dat (Cheat Codes)": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/usrcheat.dat.7z?",
+			"output": "/usrcheat.dat.7z",
+			"message": "Downloading usrcheat.dat..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/usrcheat.dat.7z",
+			"input": "usrcheat.dat",
+			"output": "/_nds/TWiLightMenu/extras/usrcheat.dat",
+			"message": "Extracting usrcheat.dat..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/usrcheat.dat.7z"
+		}
+	],
+	"GodMode9i Release": [
+		{
+			"type": "downloadRelease",
+			"repo": "RocketRobz/GodMode9i",
+			"file": "GodMode9i.7z",
+			"output": "/GodMode9i.7z",
+			"message": "Downloading GodMode9i..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9i.7z",
+			"input": "GodMode9i.cia",
+			"output": "/GodMode9i.cia",
+			"message": "Extracting GodMode9i..."
+		},
+		{
+			"type": "installCia",
+			"file": "/GodMode9i.cia",
+			"message": "Installing GodMode9i..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GodMode9i.cia"
+		}
+	],
+	"GodMode9i Nightly": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
+			"output": "/GodMode9i.7z",
+			"message": "Downloading GodMode9i Nightly..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9i.7z",
+			"input": "GodMode9i/GodMode9i.cia",
+			"output": "/GodMode9i.cia",
+			"message": "Extracting GodMode9i..."
+		},
+		{
+			"type": "installCia",
+			"file": "/GodMode9i.cia",
+			"message": "Installing GodMode9i..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GodMode9i.7z"
+		}
+	],
+	"GBARunner2 Nightly": [
+		{
+			"type": "downloadRelease",
+			"repo": "Gericom/GBARunner2",
+			"file": "GBARunner2_arm7dldi_3ds\\.nds",
+			"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
+			"message": "Downloading GBARunner2... (Nightly)"
+		}
+	],
+	"GBARunner2 Nightly (Prerelease)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Gericom/GBARunner2",
+			"file": "GBARunner2_arm7dldi_3ds\\.nds",
+			"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
+			"includePrereleases": true,
+			"message": "Downloading GBARunner2... (Nightly)"
+		}
+	],
+	"TWPatch": [
+		{
+			"type": "downloadFile",
+			"file": "https://puu.sh/F8T4f/aeca994099.cia",
+			"output": "/TWPatch.cia",
+			"message": "Downloading TWPatch.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWPatch.cia",
+			"message": "Installing TWPatch..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWPatch.cia"
+		}
+	]
+}

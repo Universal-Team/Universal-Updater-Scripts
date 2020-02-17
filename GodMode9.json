@@ -1,0 +1,49 @@
+{
+	"info": {
+		"title": "GodMode9",
+		"author": "d0k3",
+		"shortDesc": "GodMode9 is an in-depth file manager for Luma3DS.",
+		"description": "With this script, you can download and\nupdate to the latest version of GodMode9.\n\nScript by The Conceptionist",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 3,
+		"revision": 3
+	},
+	"GodMode9 Release (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "d0k3/GodMode9",
+			"file": "GodMode9.*.zip",
+			"output": "/GodMode9.zip",
+			"message": "Downloading the GodMode9 ZIP..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9.zip",
+			"input": "GodMode9.firm",
+			"output": "/luma/payloads/GodMode9.firm",
+			"message": "Extracting the GodMode9 FIRM..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/GodMode9.zip",
+			"input": "gm9/",
+			"output": "/gm9/",
+			"message": "Extracting the /gm9/ directory..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/luma/payloads/GodMode9.firm.sha",
+			"message": "Deleting a stowaway file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GodMode9.zip",
+			"message": "Deleting the downloaded ZIP file..."
+		}
+	]
+}

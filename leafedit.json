@@ -1,0 +1,115 @@
+{
+	"info": {
+		"title": "LeafEdit",
+		"author": "Universal-Team",
+		"shortDesc": "LeafEdit is an Animal Crossing save manager and editor.",
+		"description": "What is LeafEdit?\nLeafEdit is:\nAn Animal Crossing save manager & editor.\nWith this script you can: \n- Update to the Release version.\n- Update to the Nightly version.\n\nScript created by Main Developer StackZ.",
+		"barColor": "#0e4920",
+		"bgBottomColor": "#177935",
+		"bgTopColor": "#177935",
+		"textColor": "#ffffff",
+		"selectedColor": "#268228",
+		"unselectedColor": "#264628",
+		"progressbarColor": "#268228",
+		"version": 3,
+		"revision": 5
+	},
+	"release-cia": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.cia",
+			"output": "/LeafEdit.cia",
+			"message": "Downloading LeafEdit cia (release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/LeafEdit.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/LeafEdit.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"release-3dsx": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.3dsx",
+			"output": "/3ds/LeafEdit.3dsx",
+			"message": "Downloading LeafEdit 3dsx (release)... please wait."
+		}
+	],
+	"nightly-3dsx": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
+			"output": "/3ds/LeafEdit.3dsx",
+			"message": "Downloading LeafEdit 3dsx (nightly)... please wait."
+		}
+	],
+	"nightly-cia": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia",
+			"output": "/LeafEdit.cia",
+			"message": "Downloading LeafEdit cia (nightly)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/LeafEdit.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/LeafEdit.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"nightly-nds": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.nds",
+			"output": "/LeafEdit.nds",
+			"message": "Downloading LeafEdit nds (nightly)... please wait."
+		}
+	],
+	"TWiLight Menu++ Boxart": [
+		{
+			"type": "mkdir",
+			"directory": "/_nds/TWiLightMenu/boxart"
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/LeafEdit/raw/master/resources/LeafEdit.nds.png",
+			"output": "/_nds/TWiLightMenu/boxart/LeafEdit.nds.png",
+			"message": "Downloading LeafEdit.nds.png..."
+		}
+	],
+	"nightly-nds-cia": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.nds.cia",
+			"output": "/LeafEdit.nds.cia",
+			"message": "Downloading LeafEdit.nds.cia (nightly)... please wait."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.nds",
+			"output": "/_nds/LeafEdit/LeafEdit.nds",
+			"message": "Downloading LeafEdit nds (nightly)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/LeafEdit.nds.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/LeafEdit.nds.cia",
+			"message": "Deleting unneded file."
+		}
+	]
+}
