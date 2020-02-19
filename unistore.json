@@ -1,0 +1,74 @@
+{
+	"info": {
+		"title": "UniStore Script",
+		"author": "DeadPhoenix8091, FlameKat53, RocketRobz, StackZ, Universal-Team",
+		"shortDesc": "Includes downloads to all current UniStores.",
+		"description": "With this Script you can:\n- Download Rocket-Store\n- Download Stack-Store\n- Download Storefront\n- Download TinyDB Homebrew Database\n- Download TWLMenu Store",
+		"barColor": "#9e9a99",
+		"bgBottomColor": "#373737",
+		"bgTopColor": "#373737",
+		"textColor": "#eae5e4",
+		"selectedColor": "#b7b6b6",
+		"unselectedColor": "#4a4848",
+		"version": 3,
+		"revision": 1
+	},
+	"Rocket-Store": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/RocketRobz/Rocket-Store/raw/master/unistore/Rocket-Store.unistore",
+			"output": "/3ds/Universal-Updater/stores/Rocket-Store.unistore",
+			"message": "Downloading Rocket-Store.unistore..."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/RocketRobz/Rocket-Store/raw/master/unistore/Rocket-Store.t3x",
+			"output": "/3ds/Universal-Updater/stores/Rocket-Store.t3x",
+			"message": "Downloading Rocket-Store.t3x..."
+		}
+	],
+	"Stack-Store": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.unistore",
+			"output": "/3ds/Universal-Updater/stores/Stack-Store.unistore",
+			"message": "Downloading Stack-Store.unistore..."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x",
+			"output": "/3ds/Universal-Updater/stores/Stack-Store.t3x",
+			"message": "Downloading Stack-Store.t3x..."
+		}
+	],
+	"Storefront": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/FlameKat53/storefront/raw/master/unistore/storefront.unistore",
+			"output": "/3ds/Universal-Updater/stores/storefront.unistore",
+			"message": "Downloading storefront.unistore..."
+		}
+	],
+	"TinyDB": [
+		{
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/api/tinydb.unistore",
+			"output": "/3ds/Universal-Updater/stores/tinydb.unistore",
+			"message": "Downloading TinyDB.unistore..."
+		}
+	],
+	"TWLMenu": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/UniStore/raw/master/unistore/TWLMenu.unistore",
+			"output": "/3ds/Universal-Updater/stores/TWLMenu.unistore",
+			"message": "Downloading TWLMenu.unistore..."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/UniStore/raw/master/unistore/TWLMenu.t3x",
+			"output": "/3ds/Universal-Updater/stores/TWLMenu.t3x",
+			"message": "Downloading TWLMenu.t3x..."
+		}
+	]
+}
