@@ -1,0 +1,83 @@
+{
+	"info": {
+		"title": "CTGP-7",
+		"author": "CTGP-7 Team",
+		"shortDesc": "Custom Tracks Grand Prix - 7",
+		"description": "CTGP-7 modpack for Mario Kart 7.\nMore info: shorturl.at/zCDEQ",
+		"barColor": "#ff0000",
+		"bgBottomColor": "#800000",
+		"bgTopColor": "#800000",
+		"textColor": "#000000",
+		"selectedColor": "#ffffff",
+		"unselectedColor": "#ff3737",
+		"progressbarColor": "#c8c8c8",
+		"version": 3,
+		"revision": 1
+	},
+	"Installer (cia)": [
+		{
+			"type": "mkdir",
+			"Directory": "sdmc:/ctgp7installtemp/"
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://ctgp7.page.link/cia_install",
+			"output": "sdmc:/ctgp7installtemp/CTGP-7.zip",
+			"message": "Step 1/5: Downloading zip..."
+		},
+		{
+			"type": "extractFile",
+			"file": "sdmc:/ctgp7installtemp/CTGP-7.zip",
+			"input": "CTGP-7_Installer.cia",
+			"output": "/ctgp7installtemp/CTGP-7_Installer.cia",
+			"message": "Step 2/5: Extracting zip..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/ctgp7installtemp/CTGP-7.zip",
+			"message": "Step 3/5: Deleting zip..."
+		},
+		{
+			"type": "installCia",
+			"file": "sdmc:/ctgp7installtemp/CTGP-7_Installer.cia",
+			"message": "Step 4/5: Installing cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/ctgp7installtemp/CTGP-7_Installer.cia",
+			"message": "Step 5/5: Deleting cia..."
+		},
+		{
+			"type": "rmdir",
+			"directory": "sdmc:/ctgp7installtemp/"
+		}
+	],
+	"Installer (3dsx)": [
+		{
+			"type": "mkdir",
+			"Directory": "sdmc:/ctgp7installtemp/"
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://ctgp7.page.link/3dsx_install",
+			"output": "sdmc:/ctgp7installtemp/CTGP-7.zip",
+			"message": "Step 1/3: Downloading zip..."
+		},
+		{
+			"type": "extractFile",
+			"file": "sdmc:/ctgp7installtemp/CTGP-7.zip",
+			"input": "CTGP-7_Installer.3dsx",
+			"output": "/3ds/CTGP-7_Installer.3dsx",
+			"message": "Step 2/3: Extracting zip..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/ctgp7installtemp/CTGP-7.zip",
+			"message": "Step 3/3: Deleting zip..."
+		},
+		{
+			"type": "rmdir",
+			"directory": "sdmc:/ctgp7installtemp/"
+		}
+	]
+}
