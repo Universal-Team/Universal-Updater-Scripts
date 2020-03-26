@@ -12,12 +12,12 @@
 		"unselectedColor": "#ff3737",
 		"progressbarColor": "#c8c8c8",
 		"version": 3,
-		"revision": 1
+		"revision": 2
 	},
 	"Installer (cia)": [
 		{
 			"type": "mkdir",
-			"Directory": "sdmc:/ctgp7installtemp/"
+			"directory": "sdmc:/ctgp7installtemp/"
 		},
 		{
 			"type": "downloadFile",
@@ -55,7 +55,7 @@
 	"Installer (3dsx)": [
 		{
 			"type": "mkdir",
-			"Directory": "sdmc:/ctgp7installtemp/"
+			"directory": "sdmc:/ctgp7installtemp/"
 		},
 		{
 			"type": "downloadFile",
