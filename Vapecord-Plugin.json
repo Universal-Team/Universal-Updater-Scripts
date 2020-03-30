@@ -16,7 +16,7 @@
 	"Full ACNL EUR": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -51,7 +51,7 @@
 	"Full ACNL USA": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -86,7 +86,7 @@
 	"Full ACNL JPN": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -121,7 +121,7 @@
 	"Full ACNL KOR": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -156,7 +156,7 @@
 	"Full ACNL WA EUR": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -191,7 +191,7 @@
 	"Full ACNL WA USA": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -226,7 +226,7 @@
 	"Full ACNL WA JPN": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -261,7 +261,7 @@
 	"ACNL Welcome Luxury": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Luxury.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -296,7 +296,7 @@
 	"Lite ACNL EUR": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.Lite.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -317,7 +317,7 @@
 	"Lite ACNL USA": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.Lite.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -338,7 +338,7 @@
 	"Lite ACNL JPN": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.Lite.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -359,7 +359,7 @@
 	"Lite ACNL KOR": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.Lite.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -380,7 +380,7 @@
 	"Lite ACNL WA EUR": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.Lite.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -401,7 +401,7 @@
 	"Lite ACNL WA USA": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.Lite.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
@@ -422,7 +422,7 @@
 	"Lite ACNL WA JPN": [
 		{
 			"type": "downloadRelease",
-			"repo": "RedShyGuy",
+			"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 			"file": "Vapecord.Public.Lite.zip",
 			"output": "/Vapecord.zip",
 			"message": "Download the latest Plugin... please wait."
