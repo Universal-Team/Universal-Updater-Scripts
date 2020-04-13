@@ -1,0 +1,600 @@
+{
+	"info": {
+		"title": "agameaweek megascript",
+		"author": "script: cooolgamer/games: Jayenkai",
+		"shortDesc": "download and play agameaweek games!",
+		"description": "here, you can download agameaweek games\nall games by Janyenkai!\nvisit https://agameaweek.com/ for more!\nScript by cooolgamer c:\nall games are on .cia",
+		"barColor": "#FB5947",
+		"bgBottomColor": "#34A6D2",
+		"bgTopColor": "#FF9224",
+		"textColor": "#F4E586",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 3,
+		"revision": 2
+	},
+	"JNKPlat2018.cia": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+			"output": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+			"message": "downloading JNKPlat2018.cia"
+		},
+		{
+			"type": "extractFile",
+			"file": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+			"input": "JNKPlat2018.cia",
+			"output": "/JNKPlat2018.cia",
+			"message": "Extracting JNKPlat2018.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/JNKPlat2018.cia",
+			"message": "installing JNKPlat2018.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/JNKPlat2018.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/JNKPlat2018.php?Export=lev",
+			"output": "/Agawsave/JNKPlat2018_OnlineLevels.lev",
+			"message": "downloading JNKPlat2018 online levels"
+		}
+	],
+	"JNKPlat2018 online levels": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/JNKPlat2018.php?Export=lev",
+			"output": "/Agawsave/JNKPlat2018_OnlineLevels.lev",
+			"message": "downloading JNKPlat2018 online levels"
+		}
+	],
+	"ClassicSpikeDislike.cia": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/https://agameaweek.com/completeB/2019/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
+			"output": "/JNKPlat_2018_Game_20181002_3dsBrew.zip",
+			"message": "downloading ClassicSpikeDislike.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
+			"input": "ClassicSpikeDislike.cia",
+			"output": "/ClassicSpikeDislike.cia",
+			"message": "Extracting ClassicSpikeDislike.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/ClassicSpikeDislike.cia",
+			"message": "installing ClassicSpikeDislike.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/ClassicSpikeDislike.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Classic_SpikeDislike_Game_20190208_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Orbital Annihilation": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2019/Orbital_Annihilation_Game_20190121_3dsBrew.zip",
+			"output": "/Orbital_Annihilation_Game_20190121_3dsBrew.zip",
+			"message": "downloading CentipongRebound.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Orbital_Annihilation_Game_20190121_3dsBrew.zip",
+			"input": "OrbitalAnnihilation.cia",
+			"output": "/OrbitalAnnihilation.cia",
+			"message": "Extracting Orbital Annihilation.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/OrbitalAnnihilation.cia",
+			"message": "installing Orbital Annihilation.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/OrbitalAnnihilation.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Orbital_Annihilation_Game_20190121_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Futrinos": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2019/Futrinos_Game_20190113_3dsBrew.zip",
+			"output": "/Futrinos_Game_20190113_3dsBrew.zip",
+			"message": "downloading Futrinos.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Futrinos_Game_20190113_3dsBrew.zip",
+			"input": "Futrinos.cia",
+			"output": "/Futrinos.cia",
+			"message": "Extracting Futrinos.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Futrinos.cia",
+			"message": "installing Futrinos.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Futrinos.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Futrinos_Game_20190113_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Quadoban 2": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Quadoban_2_Game_20180904_3dsBrew.zip",
+			"output": "/Quadoban_2_Game_20180904_3dsBrew.zip",
+			"message": "downloading Quadoban_2.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Quadoban_2_Game_20180904_3dsBrew.zip",
+			"input": "Quadoban2.cia",
+			"output": "/Quadoban2.cia",
+			"message": "Extracting Quadoban_2.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Quadoban2.cia",
+			"message": "installing Quadoban_2.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Quadoban2.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Quadoban_2_Game_20180904_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Centipong Rebound": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Centipong_Rebound_Game_20180812_3dsBrew.zip",
+			"output": "/Centipong_Rebound_Game_20180812_3dsBrew.zip",
+			"message": "downloading CentipongRebound.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Centipong_Rebound_Game_20180812_3dsBrew.zip",
+			"input": "CentipongRebound.cia",
+			"output": "/CentipongRebound.cia",
+			"message": "Extracting CentipongRebound.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/CentipongRebound.cia",
+			"message": "installing CentipongRebound.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/CentipongRebound.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Centipong_Rebound_Game_20180812_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Generic Snake Clone": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Generic_Snake_Clone_Game_20180729_3dsBrew.zip",
+			"output": "/Generic_Snake_Clone_Game_20180729_3dsBrew.zip",
+			"message": "downloading GenericSnakeClone.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Generic_Snake_Clone_Game_20180729_3dsBrew.zip",
+			"input": "GenericSnakeClone.cia",
+			"output": "/GenericSnakeClone.cia",
+			"message": "Extracting GenericSnakeClone.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/GenericSnakeClone.cia",
+			"message": "installing GenericSnakeClone.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/GenericSnakeClone.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Generic_Snake_Clone_Game_20180729_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Might of the Balls": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Might_of_the_Balls_Game_20180723_3dsBrew.zip",
+			"output": "/Might_of_the_Balls_Game_20180723_3dsBrew.zip",
+			"message": "downloading MightoftheBalls.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Might_of_the_Balls_Game_20180723_3dsBrew.zip",
+			"input": "MightoftheBalls.cia",
+			"output": "/MightoftheBalls.cia",
+			"message": "Extracting MightoftheBalls.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/MightoftheBalls.cia",
+			"message": "installing MightoftheBalls.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/MightoftheBalls.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Might_of_the_Balls_Game_20180723_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Radial Warning": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Radial_Warning_Game_20180716_3dsBrew.zip",
+			"output": "/Radial_Warning_Game_20180716_3dsBrew.zip",
+			"message": "downloading RadialWarning.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Radial_Warning_Game_20180716_3dsBrew.zip",
+			"input": "RadialWarning.cia",
+			"output": "/RadialWarning.cia",
+			"message": "Extracting RadialWarning.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/RadialWarning.cia",
+			"message": "installing RadialWarning.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/RadialWarning.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Radial_Warning_Game_20180716_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Pogo The Fridge": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Pogo_The_Fridge_Game_20180706_3dsBrew.zip",
+			"output": "/Pogo_The_Fridge_Game_20180706_3dsBrew.zip",
+			"message": "downloading PogoTheFridge.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Pogo_The_Fridge_Game_20180706_3dsBrew.zip",
+			"input": "PogoTheFridge.cia",
+			"output": "/PogoTheFridge.cia",
+			"message": "Extracting PogoTheFridge.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/PogoTheFridge.cia",
+			"message": "installing PogoTheFridge.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/PogoTheFridge.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Pogo_The_Fridge_Game_20180706_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"The Link Janitor": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/The_Link_Janitor_Game_20180625_3dsBrew.zip",
+			"output": "/The_Link_Janitor_Game_20180625_3dsBrew.zip",
+			"message": "downloading TheLinkJanitor.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/The_Link_Janitor_Game_20180625_3dsBrew.zip",
+			"input": "TheLinkJanitor.cia",
+			"output": "/TheLinkJanitor.cia",
+			"message": "Extracting TheLinkJanitor.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TheLinkJanitor.cia",
+			"message": "installing TheLinkJanitor.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TheLinkJanitor.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/The_Link_Janitor_Game_20180625_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"NeoPlat Blast": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/NeoPlat_Blast_Game_20180616_3dsBrew.zip",
+			"output": "/NeoPlat_Blast_Game_20180616_3dsBrew.zip",
+			"message": "downloading NeoPlatBlast.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/NeoPlat_Blast_Game_20180616_3dsBrew.zip",
+			"input": "NeoPlatBlast.cia",
+			"output": "/NeoPlatBlast.cia",
+			"message": "Extracting NeoPlatBlast.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/NeoPlatBlast.cia",
+			"message": "installing NeoPlatBlast.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/NeoPlatBlast.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/NeoPlat_Blast_Game_20180616_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"BlockmanGetsRetro": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Blockman_Gets_Retro_Game_20180603_3dsBrew.zip",
+			"output": "/Blockman_Gets_Retro_Game_20180603_3dsBrew.zip",
+			"message": "downloading BlockmanGetsRetro.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Blockman_Gets_Retro_Game_20180603_3dsBrew.zip",
+			"input": "BlockmanGetsRetro.cia",
+			"output": "/BlockmanGetsRetro.cia",
+			"message": "Extracting BlockmanGetsRetro.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/BlockmanGetsRetro.cia",
+			"message": "installing BlockmanGetsRetro.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/BlockmanGetsRetro.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Blockman_Gets_Retro_Game_20180603_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Squashly Boop": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Squashly_Boop_Game_20180526_3dsBrew.zip",
+			"output": "/Squashly_Boop_Game_20180526_3dsBrew.zip",
+			"message": "downloading SquashlyBoop.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Squashly_Boop_Game_20180526_3dsBrew.zip",
+			"input": "SquashlyBoop.cia",
+			"output": "/SquashlyBoop.cia",
+			"message": "Extracting SquashlyBoop.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/SquashlyBoop.cia",
+			"message": "installing SquashlyBoop.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/SquashlyBoop.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Squashly_Boop_Game_20180526_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Franken Hopper": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Franken_Hopper_Game_20180512_3dsBrew.zip",
+			"output": "/Franken_Hopper_Game_20180512_3dsBrew.zip",
+			"message": "downloading FrankenHopper.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Franken_Hopper_Game_20180512_3dsBrew.zip",
+			"input": "FrankenHopper.cia",
+			"output": "/FrankenHopper.cia",
+			"message": "Extracting FrankenHopper.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/FrankenHopper.cia",
+			"message": "installing FrankenHopper.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/FrankenHopper.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Franken_Hopper_Game_20180512_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"MicroClampett": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Micro_Clampett_Game_20180325_3dsBrew.zip",
+			"output": "/Micro_Clampett_Game_20180325_3dsBrew.zip",
+			"message": "downloading MicroClampett.ciaa..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Micro_Clampett_Game_20180325_3dsBrew.zip",
+			"input": "MicroClampett.cia",
+			"output": "/MicroClampett.cia",
+			"message": "Extracting MicroClampett.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/MicroClampett.cia",
+			"message": "installing MicroClampett.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/MicroClampett.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Micro_Clampett_Game_20180325_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Roland Eats a Stale Biscuit": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Roland_Eats_a_Stale_Biscuit_Game_20180310_3dsBrew.zip",
+			"output": "/Roland_Eats_a_Stale_Biscuit_Game_20180310_3dsBrew.zip",
+			"message": "downloading RolandEatsaStaleBiscuit.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Roland_Eats_a_Stale_Biscuit_Game_20180310_3dsBrew.zip",
+			"input": "RolandEatsaStaleBiscuit.cia",
+			"output": "/RolandEatsaStaleBiscuit.cia",
+			"message": "Extracting RolandEatsaStaleBiscuit.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/RolandEatsaStaleBiscuit.cia",
+			"message": "installing RolandEatsaStaleBiscuit.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/RolandEatsaStaleBiscuit.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Roland_Eats_a_Stale_Biscuit_Game_20180310_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"On a Space Shooting Trail": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/On_a_Space_Shooting_Trail_Game_20180226_3dsBrew.zip",
+			"output": "/On_a_Space_Shooting_Trail_Game_20180226_3dsBrew.zip",
+			"message": "downloading OnaSpaceShootingTrail.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/On_a_Space_Shooting_Trail_Game_20180226_3dsBrew.zip",
+			"input": "OnaSpaceShootingTrail.cia",
+			"output": "/OnaSpaceShootingTrail.cia",
+			"message": "Extracting OnaSpaceShootingTrail.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/OnaSpaceShootingTrail.cia",
+			"message": "installing OnaSpaceShootingTrail.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/OnaSpaceShootingTrail.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/On_a_Space_Shooting_Trail_Game_20180226_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	],
+	"Flappadiddle Doo": [
+		{
+			"type": "downloadFile",
+			"file": "https://agameaweek.com/completeB/2018/Flappadiddle_Doo_Game_20171023_3dsBrew.zip",
+			"output": "/Flappadiddle_Doo_Game_20171023_3dsBrew.zip",
+			"message": "downloading FlappadiddleDoo.cia..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/Flappadiddle_Doo_Game_20171023_3dsBrew.zip",
+			"input": "FlappadiddleDoo.cia",
+			"output": "/FlappadiddleDoo.cia",
+			"message": "Extracting FlappadiddleDoo.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/FlappadiddleDoo.cia",
+			"message": "installing FlappadiddleDoo.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/FlappadiddleDoo.cia",
+			"message": "deleting the downloaded CIA file..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Flappadiddle_Doo_Game_20171023_3dsBrew.zip",
+			"message": "deleting the downloaded ZIP file..."
+		}
+	]
+}
