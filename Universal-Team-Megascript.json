@@ -3,7 +3,7 @@
 		"title": "Universal-Team Megascript",
 		"author": "Universal-Team",
 		"shortDesc": "Includes downloads for all Universal-Team projects.",
-		"description": "With this script, you can download and update\nthe following Universal-Team projects: \n- BetterDex\n- LeafEdit\n- Project-Athena\n- Universal-Manager\n- Universal-Updater\n- pkmn-chest\nScript by The Conceptionist",
+		"description": "With this script, you can download and update\nthe following Universal-Team projects: \n- BetterDex\n- LeafEdit\n- Project-Athena\n- Universal-Manager\n- Universal-Updater\n- pkmn-chest\n- Universal-Edit\nScript by The Conceptionist",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
 		"bgTopColor": "#60A8C0",
@@ -11,7 +11,7 @@
 		"selectedColor": "#78C0D8",
 		"unselectedColor": "#4D7684",
 		"version": 3,
-		"revision": 3
+		"revision": 4
 	},
 	"BetterDex Nightly 3DSX": [
 		{
@@ -280,6 +280,32 @@
 		{
 			"type": "deleteFile",
 			"file": "/pkmn-chest.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Universal-Edit Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/blob/master/builds/universal-edit/Universal-Edit.3dsx?raw=true",
+			"output": "/3ds/Universal-Edit.3dsx",
+			"message": "Downloading the Universal-Edit.3dsx..."
+		}
+	],
+	"Universal-Edit Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/blob/master/builds/universal-edit/Universal-Edit.cia?raw=true",
+			"output": "/Universal-Edit.cia",
+			"message": "Downloading the Universal-Edit CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Universal-Edit.cia",
+			"message": "Installing the Universal-Edit CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Universal-Edit.cia",
 			"message": "Deleting the downloaded CIA file..."
 		}
 	]
