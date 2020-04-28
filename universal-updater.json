@@ -3,9 +3,9 @@
 		"title": "Universal-Updater",
 		"author": "Universal-Team",
 		"shortDesc": "Universal-Updater is an updater that can update 3DS homebrew software.",
-		"description": "A universally good updater! :)\nWith this Script you can:\n- update Universal-Updater to:\nNightly (Might be not always stable, but has latest changes.)\nRelease (Stable and official.)",
+		"description": "A multiapp, JSON script-based updater for Nintendo 3DS :)\nWith this Script you can:\n- update Universal-Updater to:\nNightly (Might be not always stable, but has latest changes.)\nRelease (Stable and official.)",
 		"version": 3,
-		"revision": 2
+		"revision": 3
 	},
 	"Install Nightly cia": [
 		{
@@ -20,6 +20,7 @@
 		{
 			"type": "installCia",
 			"file": "sdmc:/Universal-Updater.cia",
+			"updateSelf": true,
 			"message": "Installing the Cia..."
 		},
 		{
@@ -50,6 +51,7 @@
 		{
 			"type": "installCia",
 			"file": "sdmc:/Universal-Updater.cia",
+			"updateSelf": true,
 			"message": "Installing the Cia..."
 		},
 		{
