@@ -1,0 +1,92 @@
+{
+	"info": {
+		"title": "DaedalusX64-3DS",
+		"author": "masterfeizz",
+		"shortDesc": "Port of DaedalusX64 to the Nintendo 3DS",
+		"description": "DaedalusX64 is a Nintendo 64 emulator for 3DS, Linux, PSP, PS Vita\namong other platforms. The PSP port is noteworthy\nfor being the fastest N64 emulator ever on the platform,\nachieving close to or even full speed in many titles.",
+		"version": 3,
+		"revision": 1
+	},
+	"Latest Pre-Release (CIA)": [
+		{
+			"type": "downloadRelease",
+			"repo": "masterfeizz/DaedalusX64-3DS",
+			"file": "DaedalusX64.cia",
+			"output": "/DaedalusX64.cia",
+			"includePrereleases": true,
+			"message": "Downloading the CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "sdmc:/DaedalusX64.cia",
+			"message": "Installing DaedalusX64.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/DaedalusX64.cia",
+			"message": "Deleting unneeded file."
+		}
+	],
+	"Latest Pre-Release (3dsx)": [
+		{
+			"type": "downloadRelease",
+			"repo": "masterfeizz/DaedalusX64-3DS",
+			"file": "daedalus.zip",
+			"output": "/daedalus.zip",
+			"includePrereleases": true,
+			"message": "Downloading the zip..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/daedalus.zip",
+			"input": "",
+			"output": "/",
+			"message": "Extracting zip..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/daedalus.zip",
+			"message": "Deleting unneeded file."
+		}
+	],
+	"Latest Release (CIA)": [
+		{
+			"type": "downloadRelease",
+			"repo": "masterfeizz/DaedalusX64-3DS",
+			"file": "DaedalusX64.cia",
+			"output": "/DaedalusX64.cia",
+			"message": "Downloading the CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "sdmc:/DaedalusX64.cia",
+			"message": "Installing DaedalusX64.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/DaedalusX64.cia",
+			"message": "Deleting unneeded file."
+		}
+	],
+	"Latest Release (3dsx)": [
+		{
+			"type": "downloadRelease",
+			"repo": "masterfeizz/DaedalusX64-3DS",
+			"file": "daedalus.zip",
+			"output": "/daedalus.zip",
+			"message": "Downloading the zip..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/daedalus.zip",
+			"input": "",
+			"output": "/",
+			"message": "Extracting zip..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/daedalus.zip",
+			"message": "Deleting unneeded file."
+		}
+	]
+}
