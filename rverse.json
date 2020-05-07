@@ -5,7 +5,7 @@
 		"shortDesc": "A Miiverse clone for Nintendo 3DS.",
 		"description": "This script allows you to download the newest rverse patch.",
 		"version": 3,
-		"revision": 1
+		"revision": 2
 	},
 	"Latest Release": [
 		{
@@ -18,30 +18,9 @@
 		{
 			"type": "extractFile",
 			"file": "/rverse.zip",
-			"input": "3ds/rev.pem",
-			"output": "/3ds/rev.pem",
-			"message": "Extracting rverse package 1 | 4 ... please wait."
-		},
-		{
-			"type": "extractFile",
-			"file": "/rverse.zip",
-			"input": "luma/titles/000400300000BC02/code.ips",
-			"output": "/luma/titles/000400300000BC02/code.ips",
-			"message": "Extracting rverse package 2 | 4 ... please wait."
-		},
-		{
-			"type": "extractFile",
-			"file": "/rverse.zip",
-			"input": "luma/titles/000400300000BD02/code.ips",
-			"output": "/luma/titles/000400300000BD02/code.ips",
-			"message": "Extracting rverse package 3 | 4 ... please wait."
-		},
-		{
-			"type": "extractFile",
-			"file": "/rverse.zip",
-			"input": "luma/titles/000400300000BE02/code.ips",
-			"output": "/luma/titles/000400300000BE02/code.ips",
-			"message": "Extracting rverse package 4 | 4 ... please wait."
+			"input": "",
+			"output": "/",
+			"message": "Extracting rverse package... please wait."
 		},
 		{
 			"type": "deleteFile",

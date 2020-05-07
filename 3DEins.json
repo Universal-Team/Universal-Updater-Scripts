@@ -3,7 +3,7 @@
 		"title": "3DEins",
 		"author": "Universal-Team",
 		"shortDesc": "3DEins is a cardgame for Nintendo 3DS.",
-		"description": "3DEins is a cardgame for Nintendo 3DS.\nBetter said it's an UNO clone!\n\nScript created by Main Developer StackZ.",
+		"description": "3DEins is a cardgame for Nintendo 3DS.\nBetter said it's an UNO clone!\n\nGitHub: https://github.com/Universal-Team/3DEins\nCore: https://github.com/SuperSaiyajinStackZ/3DEins-Core\n\nScript created by Main Developer StackZ.",
 		"barColor": "#dc3c00",
 		"bgBottomColor": "#dca000",
 		"bgTopColor": "#dca000",
@@ -12,7 +12,7 @@
 		"unselectedColor": "#b43c00",
 		"progressbarColor": "#fa3c00",
 		"version": 3,
-		"revision": 1
+		"revision": 2
 	},
 	"release-cia": [
 		{
