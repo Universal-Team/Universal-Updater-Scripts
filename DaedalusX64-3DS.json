@@ -5,7 +5,7 @@
 		"shortDesc": "Port of DaedalusX64 to the Nintendo 3DS",
 		"description": "DaedalusX64 is a Nintendo 64 emulator for 3DS, Linux, PSP, PS Vita\namong other platforms. The PSP port is noteworthy\nfor being the fastest N64 emulator ever on the platform,\nachieving close to or even full speed in many titles.",
 		"version": 3,
-		"revision": 2
+		"revision": 3
 	},
 	"Latest Pre-Release (CIA)": [
 		{
@@ -30,6 +30,10 @@
 			"input": "",
 			"output": "/",
 			"message": "Extracting zip... Step 3 | 6"
+		},
+		{
+			"type": "mkdir",
+			"directory": "sdmc:/3ds/DaedalusX64/Roms/"
 		},
 		{
 			"type": "installCia",
@@ -64,6 +68,10 @@
 			"message": "Extracting zip... Step 2 | 3"
 		},
 		{
+			"type": "mkdir",
+			"directory": "sdmc:/3ds/DaedalusX64/Roms/"
+		},
+		{
 			"type": "deleteFile",
 			"file": "sdmc:/daedalus.zip",
 			"message": "Deleting unneeded file. Step 3 | 3"
@@ -90,6 +98,10 @@
 			"input": "",
 			"output": "/",
 			"message": "Extracting zip... Step 3 | 6"
+		},
+		{
+			"type": "mkdir",
+			"directory": "sdmc:/3ds/DaedalusX64/Roms/"
 		},
 		{
 			"type": "installCia",
@@ -121,6 +133,10 @@
 			"input": "",
 			"output": "/",
 			"message": "Extracting zip... Step 2 | 3"
+		},
+		{
+			"type": "mkdir",
+			"directory": "sdmc:/3ds/DaedalusX64/Roms/"
 		},
 		{
 			"type": "deleteFile",
