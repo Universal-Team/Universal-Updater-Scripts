@@ -16,7 +16,7 @@
 	"Luma3DS Release (FIRM)": [
 		{
 			"type": "downloadRelease",
-			"repo": "AuroraWright/Luma3DS",
+			"repo": "LumaTeam/Luma3DS",
 			"file": "Luma3DS.*.zip",
 			"output": "/Luma3DS.zip",
 			"message": "Downloading the Luma3DS ZIP..."
