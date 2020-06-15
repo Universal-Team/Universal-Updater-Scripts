@@ -1,9 +1,9 @@
 {
 	"info": {
-		"title": "3DEins",
+		"title": "3DEins | DSEins",
 		"author": "Universal-Team",
 		"shortDesc": "3DEins is a cardgame for Nintendo 3DS.",
-		"description": "3DEins is a cardgame for Nintendo 3DS.\nBetter said it's an UNO clone!\n\nGitHub: https://github.com/Universal-Team/3DEins\nCore: https://github.com/SuperSaiyajinStackZ/3DEins-Core\n\nScript created by Main Developer StackZ.",
+		"description": "3DEins is a cardgame for Nintendo 3DS.\nBetter said it's an UNO clone!\n\nGitHub: https://github.com/Universal-Team/3DEins\nNow also includes DSEins!\n\nScript created by Main Developer StackZ.",
 		"barColor": "#dc3c00",
 		"bgBottomColor": "#dca000",
 		"bgTopColor": "#dca000",
@@ -12,9 +12,9 @@
 		"unselectedColor": "#b43c00",
 		"progressbarColor": "#fa3c00",
 		"version": 3,
-		"revision": 2
+		"revision": 3
 	},
-	"release-cia": [
+	"3DEins Release (cia)": [
 		{
 			"type": "downloadRelease",
 			"repo": "Universal-Team/3DEins",
@@ -33,7 +33,7 @@
 			"message": "Deleting unneded file."
 		}
 	],
-	"release-3dsx": [
+	"3DEins Release (3dsx)": [
 		{
 			"type": "downloadRelease",
 			"repo": "Universal-Team/3DEins",
@@ -42,7 +42,7 @@
 			"message": "Downloading 3DEins 3dsx (release)... please wait."
 		}
 	],
-	"nightly-3dsx": [
+	"3DEins Nightly (3dsx)": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
@@ -50,7 +50,7 @@
 			"message": "Downloading 3DEins 3dsx (nightly)... please wait."
 		}
 	],
-	"nightly-cia": [
+	"3DEins Nightly (cia)": [
 		{
 			"type": "downloadFile",
 			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia",
@@ -66,6 +66,72 @@
 			"type": "deleteFile",
 			"file": "sdmc:/3DEins.cia",
 			"message": "Deleting unneded file."
+		}
+	],
+	"DSEins Release (cia)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds (Release)... please wait."
+		},
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "DSEins.nds.cia",
+			"output": "/DSEins.nds.cia",
+			"message": "Downloading DSEins.nds.cia (Release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/DSEins.nds.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/DSEins.nds.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"DSEins Release (nds)": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds (Release)... please wait."
+		}
+	],
+	"DSEins Nightly (cia)": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/DSEins/DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds..."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/DSEins/DSEins.nds.cia",
+			"output": "/DSEins.nds.cia",
+			"message": "Downloading DSEins.nds.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/DSEins.nds.cia",
+			"message": "Installing DSEins.nds.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/DSEins.nds.cia"
+		}
+	],
+	"DSEins Nightly (nds)": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/DSEins/DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds..."
 		}
 	]
 }
