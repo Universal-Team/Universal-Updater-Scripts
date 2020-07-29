@@ -17,28 +17,14 @@
 		{
 			"type": "downloadRelease",
 			"repo": "DS-Homebrew/TWiLightMenu",
-			"file": "TWiLightMenu.7z",
-			"output": "/TWiLightMenu.7z",
+			"file": "TWiLightMenu-3DS.7z",
+			"output": "/TWiLightMenu-3DS.7z",
 			"message": "Downloading TWiLight Menu++..."
 		},
 		{
 			"type": "extractFile",
-			"file": "/TWiLightMenu.7z",
-			"input": "_nds/",
-			"output": "/_nds/",
-			"message": "Extracting TWiLight Menu++..."
-		},
-		{
-			"type": "extractFile",
-			"file": "/TWiLightMenu.7z",
-			"input": "3DS - CFW users/",
-			"output": "/",
-			"message": "Extracting TWiLight Menu++..."
-		},
-		{
-			"type": "extractFile",
-			"file": "/TWiLightMenu.7z",
-			"input": "DSi&3DS - SD card users/",
+			"file": "/TWiLightMenu-3DS.7z",
+			"input": "",
 			"output": "/",
 			"message": "Extracting TWiLight Menu++..."
 		},
@@ -62,34 +48,20 @@
 		},
 		{
 			"type": "deleteFile",
-			"file": "/TWiLightMenu.7z"
+			"file": "/TWiLightMenu-3DS.7z"
 		}
 	],
 	"TWiLight Menu++ Nightly": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z",
-			"output": "/TWiLightMenu.7z",
+			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
+			"output": "/TWiLightMenu-3DS.7z",
 			"message": "Downloading TWiLight Menu++ (Nightly)..."
 		},
 		{
 			"type": "extractFile",
-			"file": "/TWiLightMenu.7z",
-			"input": "TWiLightMenu/_nds/",
-			"output": "/_nds/",
-			"message": "Extracting TWiLight Menu++..."
-		},
-		{
-			"type": "extractFile",
-			"file": "/TWiLightMenu.7z",
-			"input": "TWiLightMenu/3DS - CFW users/",
-			"output": "/",
-			"message": "Extracting TWiLight Menu++..."
-		},
-		{
-			"type": "extractFile",
-			"file": "/TWiLightMenu.7z",
-			"input": "TWiLightMenu/DSi&3DS - SD card users/",
+			"file": "/TWiLightMenu-3DS.7z",
+			"input": "TWiLightMenu/",
 			"output": "/",
 			"message": "Extracting TWiLight Menu++..."
 		},
@@ -113,7 +85,7 @@
 		},
 		{
 			"type": "deleteFile",
-			"file": "/TWiLightMenu.7z"
+			"file": "/TWiLightMenu-3DS.7z"
 		}
 	],
 	"TWiLight Menu++ Nightly (Lite)": [
