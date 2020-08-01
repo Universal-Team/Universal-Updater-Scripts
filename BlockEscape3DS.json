@@ -1,0 +1,71 @@
+{
+	"info": {
+		"title": "BlockEscape3DS",
+		"author": "Universal-Team",
+		"shortDesc": "BlockEscape3DS is a block escape puzzle game for Nintendo 3DS.",
+		"description": "BlockEscape3DS is a block escape puzzle game for Nintendo 3DS.\n\nGitHub: https://github.com/Universal-Team/BlockEscape3DS\n\nScript created by Main Developer SuperSaiyajinStackZ.",
+		"barColor": "#3c3cdc",
+		"bgBottomColor": "#a0a0dc",
+		"bgTopColor": "#a0a0dc",
+		"textColor": "#ffffff",
+		"selectedColor": "#0000ff",
+		"unselectedColor": "#0000aa",
+		"progressbarColor": "#3c3cdc",
+		"version": 3,
+		"revision": 1
+	},
+	"BlockEscape3DS CIA [Release]": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/BlockEscape3DS",
+			"file": "BlockEscape3DS.cia",
+			"output": "/BlockEscape3DS.cia",
+			"message": "Downloading BlockEscape3DS cia (release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/BlockEscape3DS.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/BlockEscape3DS.cia",
+			"message": "Deleting unneeded file."
+		}
+	],
+	"BlockEscape3DS 3DSX [Release]": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/BlockEscape3DS",
+			"file": "BlockEscape3DS.3dsx",
+			"output": "/3ds/BlockEscape3DS.3dsx",
+			"message": "Downloading BlockEscape3DS 3dsx (release)... please wait."
+		}
+	],
+	"BlockEscape3DS 3DSX [Nightly]": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/BlockEscape3DS/BlockEscape3DS.3dsx",
+			"output": "/3ds/BlockEscape3DS.3dsx",
+			"message": "Downloading BlockEscape3DS 3dsx (nightly)... please wait."
+		}
+	],
+	"BlockEscape3DS CIA [Nightly]": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/BlockEscape3DS/BlockEscape3DS.cia",
+			"output": "/BlockEscape3DS.cia",
+			"message": "Downloading BlockEscape3DS cia (nightly)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/BlockEscape3DS.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/BlockEscape3DS.cia",
+			"message": "Deleting unneeded file."
+		}
+	]
+}

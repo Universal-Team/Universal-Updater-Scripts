@@ -1,0 +1,245 @@
+{
+	"info": {
+		"title": "StackGames",
+		"author": "Games: StackZ, Script: cooolgamer",
+		"shortDesc": "Download and play all StackZ games!",
+		"description": "With this script, you can download and update\nthe following StackZ games: \n- 3DEins (UNO clone for 3DS)\n- DSEins (UNO clone for NDS)\n- 3DVier (Connect Four clone for 3DS)\n- 3DZwei (Memory Cardgame clone for 3DS)\n- BlockEscape3DS (Block Escape puzzle game for 3DS)\nScript by cooolgamer",
+		"barColor": "#dc3c00",
+		"bgBottomColor": "#dca000",
+		"bgTopColor": "#dca000",
+		"textColor": "#ffffff",
+		"selectedColor": "#fa3c00",
+		"unselectedColor": "#b43c00",
+		"progressbarColor": "#fa3c00",
+		"version": 3,
+		"revision": 1
+	},
+	"3DEins Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.cia",
+			"output": "/3DEins.cia",
+			"message": "Downloading 3DEins cia (release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DEins.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"3DEins Release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.3dsx",
+			"output": "/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins 3dsx (release)... please wait."
+		}
+	],
+	"3DEins Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
+			"output": "/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins 3dsx (nightly)... please wait."
+		}
+	],
+	"3DEins Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia",
+			"output": "/3DEins.cia",
+			"message": "Downloading 3DEins cia (nightly)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DEins.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"DSEins Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds (Release)... please wait."
+		},
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "DSEins.nds.cia",
+			"output": "/DSEins.nds.cia",
+			"message": "Downloading DSEins.nds.cia (Release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/DSEins.nds.cia",
+			"message": "Installing the cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/DSEins.nds.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"DSEins Release NDS": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds (Release)... please wait."
+		}
+	],
+	"DSEins Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/DSEins/DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds..."
+		},
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/DSEins/DSEins.nds.cia",
+			"output": "/DSEins.nds.cia",
+			"message": "Downloading DSEins.nds.cia..."
+		},
+		{
+			"type": "installCia",
+			"file": "/DSEins.nds.cia",
+			"message": "Installing DSEins.nds.cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/DSEins.nds.cia"
+		}
+	],
+	"DSEins Nightly NDS": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/DSEins/DSEins.nds",
+			"output": "/DSEins.nds",
+			"message": "Downloading DSEins.nds..."
+		}
+	],
+	"3DVier Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DVier",
+			"file": "3DVier.cia",
+			"output": "/3DVier.cia",
+			"message": "Downloading 3DVier cia (release)... please wait."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DVier.cia",
+			"message": "Installing 3DVier cia..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DVier.cia",
+			"message": "Deleting unneded file."
+		}
+	],
+	"3DVier Release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DVier",
+			"file": "3DVier.3dsx",
+			"output": "/3ds/3DVier.3dsx",
+			"message": "Downloading 3DVier 3dsx (release)... please wait."
+		}
+	],
+	"3DZwei Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/blob/master/builds/3DZwei/3DZwei.3dsx?raw=true",
+			"output": "/3ds/3DZwei.3dsx",
+			"message": "Downloading 3DZwei.3dsx..."
+		}
+	],
+	"3DZwei Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/blob/master/builds/3DZwei/3DZwei.cia?raw=true",
+			"output": "/3DZwei.cia",
+			"message": "Downloading 3DZwei CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DZwei.cia",
+			"message": "Installing 3DZwei CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3DZwei.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"3DZwei release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DZwei",
+			"file": "3DZwei.3dsx",
+			"output": "/3ds/3DZwei.3dsx",
+			"message": "Downloading 3DZwei 3DSX..."
+		}
+	],
+	"3DZwei release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DZwei",
+			"file": "3DZwei.cia",
+			"output": "/3DZwei.cia",
+			"message": "Downloading 3DZwei CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DZwei.cia",
+			"message": "Installing 3DZwei CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3DZwei.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"BlockEscape3DS Nightly 3DSX": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/blob/master/builds/BlockEscape3DS/BlockEscape3DS.3dsx?raw=true",
+			"output": "/3ds/BlockEscape3DS.3dsx",
+			"message": "Downloading BlockEscape3DS.3dsx..."
+		}
+	],
+	"BlockEscape3DS Nightly CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/blob/master/builds/BlockEscape3DS/BlockEscape3DS.cia?raw=true",
+			"output": "/BlockEscape3DS.cia",
+			"message": "Downloading BlockEscape3DS CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/BlockEscape3DS.cia",
+			"message": "Installing BlockEscape3DS CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/BlockEscape3DS.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	]
+}
