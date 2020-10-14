@@ -2,8 +2,8 @@
 	"info": {
 		"title": "StackGames",
 		"author": "Games: StackZ, Script: cooolgamer",
-		"shortDesc": "Download and play all StackZ games!",
-		"description": "With this script, you can download and update\nthe following StackZ games: \n- 3DEins (UNO clone for 3DS)\n- DSEins (UNO clone for NDS)\n- 3DVier (Connect Four clone for 3DS)\n- 3DZwei (Memory Cardgame clone for 3DS)\n- BlockEscape3DS (Block Escape puzzle game for 3DS)\nScript by cooolgamer",
+		"shortDesc": "Download and play all StackGames!",
+		"description": "With this script, you can download and update\nthe following StackGames: \n- 3DEins (UNO clone for 3DS)\n- DSEins (UNO clone for NDS)\n- 3DVier (Connect Four clone for 3DS)\n- 3DZwei (Memory Cardgame clone for 3DS)\n- BlockEscape3DS (Block Escape puzzle game for 3DS)\n- 3DElf ('Elfer raus!' clone for 3DS)\n- Ludo3DS (Ludo clone for 3DS)\nScript by cooolgamer",
 		"barColor": "#dc3c00",
 		"bgBottomColor": "#dca000",
 		"bgTopColor": "#dca000",
@@ -12,7 +12,7 @@
 		"unselectedColor": "#b43c00",
 		"progressbarColor": "#fa3c00",
 		"version": 3,
-		"revision": 1
+		"revision": 2
 	},
 	"3DEins Release CIA": [
 		{
@@ -240,6 +240,62 @@
 			"type": "deleteFile",
 			"file": "/BlockEscape3DS.cia",
 			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"3DElf Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DElf",
+			"file": "3DElf.cia",
+			"output": "/3DElf.cia",
+			"message": "Downloading 3DElf CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DElf.cia",
+			"message": "Installing 3DElf CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3DElf.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"3DElf Release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DElf",
+			"file": "3DElf.3dsx",
+			"output": "/3ds/3DElf.3dsx",
+			"message": "Downloading 3DElf 3DSX..."
+		}
+	],
+	"Ludo3DS Release CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/Ludo3DS",
+			"file": "Ludo3DS.cia",
+			"output": "/Ludo3DS.cia",
+			"message": "Downloading Ludo3DS CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/Ludo3DS.cia",
+			"message": "Installing Ludo3DS CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/Ludo3DS.cia",
+			"message": "Deleting the downloaded CIA file..."
+		}
+	],
+	"Ludo3DS Release 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/Ludo3DS",
+			"file": "Ludo3DS.3dsx",
+			"output": "/3ds/Ludo3DS.3dsx",
+			"message": "Downloading Ludo3DS 3DSX..."
 		}
 	]
 }
